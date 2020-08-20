@@ -27,6 +27,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> </h1>
+    <h1 style="text-align: center; padding: 40px;"> Vous êtes le <?= $visitor ?>ième visiteur du site </h1>
 </body>
 </html>
