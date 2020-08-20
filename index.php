@@ -12,6 +12,9 @@
     fseek($file, 0);
     $visitor += 1; 
 
+    //Write the new visitor number in the file
+    fputs($file, $visitor);
+
     //close the file
     fclose($file);
 ?>
