@@ -8,6 +8,10 @@
     //Read the file
     $visitor = fgets($file);
 
+    //move the cursor to the start of file 
+    fseek($file, 0);
+    $visitor += 1; 
+
     //close the file
     fclose($file);
 ?>
